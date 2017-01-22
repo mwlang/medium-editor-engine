@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.authors     = ["Michael Lang"]
   gem.email       = ["mwlang@cybrains.net"]
   gem.homepage    = "https://github.com/mwlang/medium-editor-engine"
-  gem.summary     = %q{Metdium Editor integrated as a Rails Engine}
+  gem.summary     = %q{Medium Editor integrated as a Rails Engine}
   gem.description = gem.summary
   gem.license     = "MIT"
 
