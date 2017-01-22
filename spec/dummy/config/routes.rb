@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount MediumEditorEngine::Engine => "/editor"
+  mount MediumEditor::Engine => "/editor"
 end

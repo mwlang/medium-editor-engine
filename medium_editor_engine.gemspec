@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "medium_editor_engine/version"
+require "medium_editor/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |gem|
   gem.name        = "medium-editor-engine"
-  gem.version     = MediumEditorEngine::VERSION
+  gem.version     = MediumEditor::VERSION
   gem.authors     = ["Michael Lang"]
   gem.email       = ["mwlang@cybrains.net"]
   gem.homepage    = "https://github.com/mwlang/medium-editor-engine"

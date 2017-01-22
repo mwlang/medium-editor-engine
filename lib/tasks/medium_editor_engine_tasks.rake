@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :medium_editor_engine do
+# task :medium_editor do
 #   # Task goes here
 # end
