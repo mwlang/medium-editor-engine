@@ -18,8 +18,13 @@ Gem::Specification.new do |gem|
   gem.test_files = Dir["spec/**/*"]
 
   gem.add_dependency 'rails', '>= 3.0'
-  gem.add_dependency 'rails-assets-medium-editor'
   gem.add_dependency 'sass-rails'
+
+  gem.add_dependency 'jquery-rails'
+  gem.add_dependency 'jquery-ui-rails'
+  gem.add_dependency 'jquery-fileupload-rails'
+  gem.add_dependency 'medium-editor-rails'
+  gem.add_dependency 'medium-editor-insert-plugin-rails'
 
   gem.add_development_dependency 'bundler', '~> 1.0'
   gem.add_development_dependency "sqlite3"

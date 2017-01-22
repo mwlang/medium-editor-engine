@@ -4,4 +4,23 @@
 
 <div class="editable"></div>
 
-<script>var editor = new MediumEditor('.editable');</script>
+<script>
+  $(document).ready(function(){
+    var editor = new MediumEditor('.editable', {
+      // options go here
+    });
+
+    $('.editable').mediumInsert({
+      editor: editor,
+      addons: {
+        images: {
+          fileUploadOptions: {
+            url: '/images/upload',
+            type: 'post',
+            acceptFileTypes: /(.|\/)(gif|jpe?g|png)$/i
+          }
+        }
+      }
+    });
+  });
+</script>
