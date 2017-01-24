@@ -1,9 +1,6 @@
 require 'jquery-rails'
-require 'jquery-ui-rails'
-require 'jquery-fileupload-rails'
-
-require "medium-editor-rails"
-require "medium-editor-insert-plugin-rails"
+# require 'jquery-ui-rails'
+# require 'jquery-fileupload-rails'
 
 module MediumEditor
   class Engine < ::Rails::Engine

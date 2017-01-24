@@ -15,16 +15,12 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
 
   gem.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  gem.test_files = Dir["spec/**/*"]
+  gem.test_files = `git ls-files spec`.split($/)
 
-  gem.add_dependency 'rails', '>= 3.0'
+  gem.add_dependency 'rails', '>= 4.0'
   gem.add_dependency 'sass-rails'
 
   gem.add_dependency 'jquery-rails'
-  gem.add_dependency 'jquery-ui-rails'
-  gem.add_dependency 'jquery-fileupload-rails'
-  gem.add_dependency 'medium-editor-rails', '~> 2.3.2'
-  gem.add_dependency 'medium-editor-insert-plugin-rails', '~> 0.0.2'
 
   gem.add_development_dependency 'bundler', '~> 1.0'
   gem.add_development_dependency "sqlite3"

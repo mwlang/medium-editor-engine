@@ -1,0 +1,21 @@
+{
+  "name": "medium-editor-engine",
+  "authors": [
+    "mwlang <mwlang@cybrains.net>"
+  ],
+  "description": "Medium Editor Rails assets pipeline integration",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "medium-editor": "^5.22.2"
+  }
+}

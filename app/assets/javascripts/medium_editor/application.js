@@ -10,10 +10,14 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery3
-//= require jquery_ujs
-//= require jquery-ui/widgets/sortable
-//= require jquery-fileupload
-
+//= require jquery
 //= require medium-editor
 //= require medium-editor-insert-plugin
+
+$(function () {
+    var editor = new MediumEditor('.editable');
+
+    $('.editable').mediumInsert({
+        editor: editor
+    });
+});
